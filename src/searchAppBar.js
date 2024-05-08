@@ -9,6 +9,8 @@ import Typography from '@mui/material/Typography';
 import InputBase from '@mui/material/InputBase';
 import MenuIcon from '@mui/icons-material/Menu';
 import SearchIcon from '@mui/icons-material/Search';
+import { ThemeProvider, createTheme } from '@mui/material/styles';
+import { red } from '@mui/material/colors';
 
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
@@ -44,7 +46,7 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
     paddingLeft: `calc(1em + ${theme.spacing(4)})`,
     transition: theme.transitions.create('width'),
     [theme.breakpoints.up('sm')]: {
-      width: '12ch',
+      width: '20ch',
       '&:focus': {
         width: '20ch',
       },
@@ -52,9 +54,21 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
   },
 }));
 
+//Overrides MUI theme to make it appeal to VALORANT colour palettes
+const redTheme = createTheme({
+    palette: {
+        mode: 'light',
+    primary: {
+        main: '#FF0000',
+    },
+    },
+}
+);
+
 export default function SearchAppBar() {
   return (
     <Box sx={{ flexGrow: 1 }}>
+        <ThemeProvider theme= {redTheme} >
       <AppBar position="static">
         <Toolbar>
           <IconButton
@@ -72,19 +86,20 @@ export default function SearchAppBar() {
             component="div"
             sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
           >
-            MUI
+            The VALORANT Protocol Index
           </Typography>
           <Search>
             <SearchIconWrapper>
               <SearchIcon />
             </SearchIconWrapper>
             <StyledInputBase
-              placeholder="Search…"
+              placeholder="Look up an agent..."
               inputProps={{ 'aria-label': 'search' }}
             />
           </Search>
         </Toolbar>
       </AppBar>
+      </ThemeProvider>
     </Box>
   );
 }
