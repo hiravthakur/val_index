@@ -68,37 +68,37 @@ export default function SearchAppBar() {
   return (
     <Box sx={{ flexGrow: 1 }}>
         <ThemeProvider theme= {redTheme} >
-      <AppBar position="static">
+    <AppBar position="static">
         <Toolbar>
-          <IconButton
+        <IconButton
             size="large"
             edge="start"
             color="inherit"
             aria-label="open drawer"
             sx={{ mr: 2 }}
-          >
+        >
             <MenuIcon />
-          </IconButton>
-          <Typography
+        </IconButton>
+        <Typography
             variant="h6"
             noWrap
             component="div"
             sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
-          >
+        >
             The VALORANT Protocol Index
-          </Typography>
-          <Search>
+        </Typography>
+        <Search>
             <SearchIconWrapper>
-              <SearchIcon />
+            <SearchIcon />
             </SearchIconWrapper>
             <StyledInputBase
-              placeholder="Look up an agent..."
-              inputProps={{ 'aria-label': 'search' }}
+            placeholder="Look up an agent..."
+            inputProps={{ 'aria-label': 'search' }}
             />
-          </Search>
+        </Search>
         </Toolbar>
-      </AppBar>
-      </ThemeProvider>
+    </AppBar>
+    </ThemeProvider>
     </Box>
   );
 }
