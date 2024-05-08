@@ -1,17 +1,14 @@
 
 import './App.css';
-
 function App() {
   return (
-    <div>
-      <h1>
+      <h1 className="App-header">
       <center>
         <strong>
            The Valorant Index
         </strong>
       </center>
       </h1>
-    </div>
   );
 }
 
