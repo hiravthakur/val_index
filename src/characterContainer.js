@@ -5,8 +5,8 @@ import { styled } from '@mui/material/styles';
 
 //Creates a container for the characters from MUI
 const DemoPaper = styled(Paper)(({ theme }) => ({
-  width: 120,
-  height: 120,
+  width: 160,
+  height: 250,
   padding: theme.spacing(2),
   ...theme.typography.body2,
   textAlign: 'center',
@@ -15,9 +15,10 @@ const DemoPaper = styled(Paper)(({ theme }) => ({
 export default function CharDeployed({name, role, age, imageSrc}) {
     return (
         <DemoPaper square={false}>{name}
-        <img src={imageSrc} />
-        Age: {age}
+        <img src={imageSrc} style={{width: '140px', height: '180px'}}/>
+        Age: {age} <p>
         Role: {role}
+        </p>
         </DemoPaper>
     );
   }
