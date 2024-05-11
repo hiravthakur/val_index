@@ -1,1 +1,11 @@
 
+.containsGrid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.itemName {
+    flex: 1;
+    margin: 10px; 
+    border: 3px solid #ffffff; 
+  }
