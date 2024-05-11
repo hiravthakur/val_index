@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "name": "Brimstone",
+      "real-name": "Liam Bryne",
+      "role": "Controller",
+      "origin": "Baltimore, United States",
+      "description": "Joining from the U.S.A., Brimstone's orbital arsenal ensures his squad always has the advantage. His ability to deliver utility precisely and from a distance make him an unmatched boots-on-the-ground commander.",
+      "imageSrc": "https://static.valorantstats.xyz/agent-headshots/brimstone-headshot.png"
+    },
+    {
+        "id": 2,
+        "name": "Viper",
+        "real-name": "Sabine Callas",
+        "role": "Controller",
+        "origin": "United States",
+        "description": "The American chemist, Viper deploys an array of poisonous chemical devices to control the battlefield and choke the enemy's vision. If the toxins don't kill her prey, her mind games surely will.",
+        "imageSrc": "https://static.wikia.nocookie.net/valorant/images/5/5f/Viper_icon.png/revision/latest/smart/width/250/height/250?cb=20230523180950"
+      },
+      {
+        "id": 3,
+        "name": "Omen",
+        "real-name": "Unknown",
+        "role": "Controller",
+        "origin": "Unknown",
+        "description": "A phantom of a memory, Omen hunts in the shadows. He renders enemies blind, teleports across the field, then lets paranoia take hold as his foe scrambles to learn where he might strike next.",
+        "imageSrc": "https://img.redbull.com/images/c_crop,x_991,y_0,h_2160,w_1620/c_fill,w_450,h_600/q_auto:low,f_auto/redbullcom/2021/2/16/bm7cdtb6xdhcibbweehq/valorant-omen"
+      },
+      {
+        "id": 4,
+        "name": "Killjoy",
+        "real-name": "Klara Böhringer",
+        "role": "Sentinel",
+        "origin": "Germany",
+        "description": "The genius of Germany, Killjoy effortlessly secures key battlefield positions with her arsenal of inventions. If their damage doesn't take her enemies out, the debuff her robots provide will make short work of them.",
+        "imageSrc": "https://img.redbull.com/images/c_crop,x_246,y_0,h_720,w_540/c_fill,w_450,h_600/q_auto:low,f_auto/redbullcom/2020/10/30/yrn6erzpnmlqnosjeaws/valorant-operator-killjoy"
+      },
+      {
+        "id": 5,
+        "name": "Cypher",
+        "real-name": "Amir El Amari",
+        "role": "Sentinel",
+        "origin": "Rabat, Morocco",
+        "description": "The Moroccan information broker, Cypher is a one-man surveillance network who keeps tabs on the enemy’s every move. No secret is safe. No maneuver goes unseen. Cypher is always watching.",
+        "imageSrc": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt158572ec37653cf3/5eb7cdc19df5cf37047009d1/V_AGENTS_587x900_Cypher.png"
+      },
+      {
+        "id": 6,
+        "name": "Sova",
+        "real-name": "Alexander Novikov",
+        "role": "Initiator",
+        "origin": "Severomorsk, Russia",
+        "description": "Born from the eternal winter of Russia's tundra, Sova tracks, finds, and eliminates enemies with ruthless efficiency and precision. His custom bow and incredible scouting abilities ensure that even if you run, you cannot hide.",
+        "imageSrc": "https://pbs.twimg.com/media/F4TOpznbkAEFv_X.jpg:large"
+      },
+      {
+        "id": 7,
+        "name": "Sage",
+        "real-name": "Wei Ling Ying",
+        "role": "Sentinel",
+        "origin": "China",
+        "description": "The bastion of China, Sage creates safety for herself and her team wherever she goes. Able to revive fallen friends and stave off aggressive pushes, she provides a calm center to a hellish fight.",
+        "imageSrc": "https://static.wikia.nocookie.net/valorant-lore/images/3/37/Sage_-_Full_body.png/revision/latest?cb=20210123180615"
+      },
+  ]
+
+  {
+    "id": 2,
+    "name": "Viper",
+    "real-name": "Sabine Callas",
+    "role": "Controller",
+    "origin": "United States",
+    "description": "",
+    "imageSrc": ""
+  },
