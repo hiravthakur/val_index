@@ -62,14 +62,157 @@
         "description": "The bastion of China, Sage creates safety for herself and her team wherever she goes. Able to revive fallen friends and stave off aggressive pushes, she provides a calm center to a hellish fight.",
         "imageSrc": "https://static.wikia.nocookie.net/valorant-lore/images/3/37/Sage_-_Full_body.png/revision/latest?cb=20210123180615"
       },
+      {
+        "id": 8,
+        "name": "Phoenix",
+        "real-name": "Jamie Adeyemi",
+        "role": "Duelist",
+        "origin": "London, United Kingdom",
+        "description": "Hailing from the U.K., Phoenix's star power shines through in his fighting style, igniting the battlefield with flash and flare. Whether he's got backup or not, he'll rush into a fight on his own terms.",
+        "imageSrc": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltf0200e1821b5b39f/5eb7cdc144bf8261a04d87f9/V_AGENTS_587x900_Phx.png"
+      },
+      {
+        "id": 9,
+        "name": "Jett",
+        "real-name": "Han Sunwoo",
+        "role": "Duelist",
+        "origin": "Seoul, South Korea",
+        "description": "Representing her home country of South Korea, Jett's agile and evasive fighting style lets her take risks no one else can. She runs circles around every skirmish, cutting enemies before they even know what hit them.",
+        "imageSrc": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/36dee7f4-269b-4eda-9de2-6f0b4565e76c/de56mlp-4b1a3c46-39c3-4000-99d2-ff47c80643ad.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzM2ZGVlN2Y0LTI2OWItNGVkYS05ZGUyLTZmMGI0NTY1ZTc2Y1wvZGU1Nm1scC00YjFhM2M0Ni0zOWMzLTQwMDAtOTlkMi1mZjQ3YzgwNjQzYWQuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.zdXmc3bZg76OLHiY32tzMIrltd9ZHxYCHpoq57tMPl4"
+      },
+      {
+        "id": 10,
+        "name": "Reyna",
+        "real-name": "Zyanya Mondragón",
+        "role": "Duelist",
+        "origin": "Mexico",
+        "description": "Forged in the heart of Mexico, Reyna dominates single combat, popping off with each kill she scores. Her capability is only limited by her raw skill, making her highly dependent on performance.",
+        "imageSrc": "https://i.pinimg.com/736x/f4/0d/e0/f40de0cd5bf4125496f8fb7da266c0af.jpg"
+      },
+      {
+        "id": 11,
+        "name": "Raze",
+        "real-name": "Tayane Alves",
+        "role": "Duelist",
+        "origin": "Salvador, Brazil",
+        "description": "Raze explodes out of Brazil with her big personality and big guns. With her blunt-force-trauma playstyle, she excels at flushing entrenched enemies and clearing tight spaces with a generous dose of “boom.”",
+        "imageSrc": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt6fef56a8182d0a81/5ebf2c2798f79d6925dbd6b4/V_AGENTS_587x900_ALL_Raze_2.png"
+      },
+      {
+        "id": 12,
+        "name": "Breach",
+        "real-name": "Erik Torsten",
+        "role": "Initiator",
+        "origin": "Sweden",
+        "description": "Breach, the bionic Swede, fires powerful, targeted kinetic blasts to aggressively clear a path through enemy ground. The damage and disruption he inflicts ensures no fight is ever fair.",
+        "imageSrc": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt100d13bfa8286a3d/5eb7cdc11ea0c32e33b95fa2/V_AGENTS_587x900_Breach.png"
+      },
+      {
+        "id": 13,
+        "name": "Skye",
+        "real-name": "Kirra Foster",
+        "role": "Initiator",
+        "origin": "Nimbin, Australia",
+        "description": "Hailing from Australia, Skye and her band of beasts trail-blaze the way through hostile territory. With her creations hampering the enemy, and her power to heal others, the team is strongest and safest by Skye's side.",
+        "imageSrc": "https://img.redbull.com/images/c_crop,x_515,y_0,h_1080,w_810/c_fill,w_450,h_600/q_auto:low,f_auto/redbullcom/2020/11/13/tfoa3mi8rg3edw70fuip/valorant-skye"
+      },
+      {
+        "id": 14,
+        "name": "Yoru",
+        "real-name": "Kiritani Ryo",
+        "role": "Duelist",
+        "origin": "Japan",
+        "description": "Japanese native Yoru rips holes straight through reality to infiltrate enemy lines unseen. Using deception and aggression in equal measure, he gets the drop on each target before they know where to look.",
+        "imageSrc": "https://assetsio.gnwcdn.com/valorants-next-new-character-is-yoru-an-infiltrating-duelist-1610211709738.jpg?width=1200&height=1200&fit=crop&quality=100&format=png&enable=upscale&auto=webp"
+      },
+      {
+        "id": 15,
+        "name": "Astra",
+        "real-name": "Efia Danso",
+        "role": "Controller",
+        "origin": "Accra, Ghana",
+        "description": "Ghanaian Agent Astra harnesses the energies of the cosmos to reshape battlefields to her whim. With full command of her astral form and a talent for deep strategic foresight, she’s always eons ahead of her enemy’s next move.",
+        "imageSrc": "https://w.forfun.com/fetch/01/019856d12b52b96dc2ed16a4ac40eaae.jpeg"
+      },
+      {
+        "id": 16,
+        "name": "KAY/O",
+        "real-name": "N/A",
+        "role": "Initiator",
+        "origin": "Alternative Timeline Earth",
+        "description": "KAY/O is a machine of war built for a single purpose: neutralizing radiants. His power to suppress enemy abilities dismantles his opponents' capacity to fight back, securing him and his allies the ultimate edge.",
+        "imageSrc": "https://static.wikia.nocookie.net/vsbattles/images/3/38/KAYO_valorant2.png/revision/latest/scale-to-width-down/330?cb=20220316102450"
+      },
+      {
+        "id": 17,
+        "name": "Chamber",
+        "real-name": "Vincent Fabron",
+        "role": "Sentinel",
+        "origin": "France",
+        "description": "Well-dressed and well-armed, French weapons designer Chamber expels aggressors with deadly precision. He leverages his custom arsenal to hold the line and pick off enemies from afar, with a contingency built for every plan.",
+        "imageSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQtTeFzFmboZWFiA5uFtRL-LktWpmN7xgJ3HLfgP1lbQ&s"
+      },
+      {
+        "id": 18,
+        "name": "Neon",
+        "real-name": "Tala Nicole Dimaapi Valdez",
+        "role": "Duelist",
+        "origin": "Manila, Philippines",
+        "description": "Filipino Agent, Neon, surges forward at shocking speeds, discharging bursts of bioelectric radiance as fast as her body generates it. She races ahead to catch enemies off guard, then strikes them down quicker than lightning.",
+        "imageSrc": "https://img.redbull.com/images/c_crop,x_264,y_0,h_546,w_409/c_fill,w_450,h_600/q_auto:low,f_auto/redbullcom/2022/10/31/yy1oarooqat7lunsjw5r/valorant-neon"
+      },
+      {
+        "id": 19,
+        "name": "Fade",
+        "real-name": "Hazal Eyletmez",
+        "role": "Initiator",
+        "origin": "Istanbul, Turkey",
+        "description": "Turkish bounty hunter Fade unleashes the power of raw nightmare to seize enemy secrets. Attuned with terror itself, she hunts down targets and reveals their deepest fears - before crushing them in the dark.",
+        "imageSrc": "https://static.wikia.nocookie.net/valorant/images/e/e8/Fade_Artwork_Full.png/revision/latest/scale-to-width-down/1200?cb=20220810202738"
+      },
+      {
+        "id": 20,
+        "name": "Harbor",
+        "real-name": "Varun Batra",
+        "role": "Controller",
+        "origin": "India",
+        "description": "Hailing from India's coast, Harbor storms the field wielding ancient technology with dominion over water. He unleashes frothing rapids and crushing waves to shield his allies, or pummel those that oppose him.",
+        "imageSrc": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt81e8a3e8c7beeaf3/634894a15e281916980f655b/Harbor_KeyArt-web.png"
+      }, 
+      {
+        "id": 21,
+        "name": "Gekko",
+        "real-name": "Mateo Armendáriz De la Fuente",
+        "role": "Initiator",
+        "origin": "Los Angeles, United States",
+        "description": "Gekko the Angeleno leads a tight-knit crew of calamitous creatures. His buddies bound forward, scattering enemies out of the way, with Gekko chasing them down to regroup and go again.",
+        "imageSrc": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltc942933be01094ae/6402724fe9f75310481c3851/V_AGENTS_587x900_Gekko2.png"
+      },
+      {
+        "id": 22,
+        "name": "Deadlock",
+        "real-name": "Iselin",
+        "role": "Sentinel",
+        "origin": "Norway",
+        "description": "Norwegian operative Deadlock deploys an array of cutting-edge nanowire to secure the battlefield from even the most lethal assault. No one escapes her vigilant watch, nor survives her unyielding ferocity",
+        "imageSrc": "https://img.redbull.com/images/c_crop,x_448,y_0,h_2160,w_1620/c_fill,w_450,h_600/q_auto:low,f_auto/redbullcom/2023/11/15/npjnlpq0guabgadtqkbq/deadlock-valorant"
+      },
+      {
+        "id": 23,
+        "name": "Iso",
+        "real-name": "Li Zhao Yu",
+        "role": "Duelist",
+        "origin": "Chongqing, China",
+        "description": "Chinese fixer for hire Iso goes into a flow state to dismantle the opposition. Reconfiguring ambient energy into bulletproof protection, he advances with focus towards his next duel to the death.",
+        "imageSrc": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt34e30d5669e7309c/653add3080274d040a37d656/ISO_KeyArt_Final.png"
+      },
+      {
+        "id": 24,
+        "name": "Clove",
+        "real-name": "Unknown",
+        "role": "Controller",
+        "origin": "Edinburgh, United Kingdom",
+        "description": "Scottish troublemaker Clove makes mischief for enemies in both the heat of combat and the cold of death. The young immortal keeps foes guessing, even from beyond the grave, their return to the living only ever a moment away.",
+        "imageSrc": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt8e3123f0fc29db2a/65fddcd7fc58c8422b142571/E8A2_Web_Clove_key_Art.png"
+      }
   ]
-
-  {
-    "id": 2,
-    "name": "Viper",
-    "real-name": "Sabine Callas",
-    "role": "Controller",
-    "origin": "United States",
-    "description": "",
-    "imageSrc": ""
-  },
