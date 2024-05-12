@@ -10,7 +10,7 @@ function App() {
       <SearchAppBar />
       <div className="containsGrid">
       {characters.map((item) => ( <div className="itemName"> <CharDeployed name={item.name} imageSrc={item.imageSrc} 
-      realn={item['real-name']} role={item.role} desc={item.description}/>
+      realn={item['real-name']} role={item.role} desc={item.description} home={item.origin}/>
       </div>))}
       </div>
       </>

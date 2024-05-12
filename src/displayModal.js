@@ -18,7 +18,7 @@ const style = {
   p: 4,
 };
 
-export default function BasicModal({info}) {
+export default function BasicModal({info, org}) {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
@@ -38,6 +38,9 @@ export default function BasicModal({info}) {
           </Typography>
           <Typography id="modal-modal-description" sx={{ mt: 2 }}>
             {info}
+          </Typography>
+          <Typography id="modal-modal-description" sx={{ mt: 2 }}>
+            <strong>Hails from: </strong> {org}
           </Typography>
         </Box>
       </Modal>

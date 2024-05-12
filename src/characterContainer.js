@@ -11,11 +11,11 @@ const DemoPaper = styled(Paper)(({ theme }) => ({
   textAlign: 'center',
 }));
 
-export default function CharDeployed({name, role, realn, imageSrc, desc}) {
+export default function CharDeployed({name, role, realn, imageSrc, desc, home}) {
     return (
         <DemoPaper square={false}>
             <span align="right">
-             <BasicModal info={desc}></BasicModal>
+             <BasicModal info={desc} org={home}></BasicModal>
              </span>
              <p>
             <strong>{name}</strong>
