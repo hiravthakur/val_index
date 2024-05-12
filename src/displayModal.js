@@ -18,7 +18,7 @@ const style = {
   p: 4,
 };
 
-export default function BasicModal() {
+export default function BasicModal({info}) {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
@@ -37,7 +37,7 @@ export default function BasicModal() {
             Character In-Game Description
           </Typography>
           <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-            
+            {info}
           </Typography>
         </Box>
       </Modal>
