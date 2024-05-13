@@ -65,6 +65,14 @@ const redTheme = createTheme({
 );
 
 export default function SearchAppBar() {
+
+  const handleSearch = (event) => {
+    if (event.key === 'Enter') {
+    const query = event.target.value;
+    console.log('Searching for:', query);
+    }
+  };
+
   return (
     <Box sx={{ flexGrow: 1 }}>
         <ThemeProvider theme= {redTheme} >
@@ -94,6 +102,7 @@ export default function SearchAppBar() {
             <StyledInputBase
             placeholder="Look up an agent..."
             inputProps={{ 'aria-label': 'search' }}
+            onKeyDown={handleSearch}
             />
         </Search>
         </Toolbar>

@@ -9,21 +9,23 @@ const DemoPaper = styled(Paper)(({ theme }) => ({
   padding: theme.spacing(3),
   ...theme.typography.body2,
   textAlign: 'center',
+  borderRadius: 20,
 }));
 
 export default function CharDeployed({name, role, realn, imageSrc, desc, home}) {
     return (
-        <DemoPaper square={false}>
-            <span align="right">
-             <BasicModal info={desc} org={home}></BasicModal>
-             </span>
-             <p>
-            <strong>{name}</strong>
-            </p>
-        <img src={imageSrc} style={{width: '140px', height: '180px'}}/>
-        <p>
-        Real Name: {realn} </p>
-        Role: {role}
-        </DemoPaper>
+        <BasicModal info={desc} org={home}>
+            <DemoPaper square={false}>
+                <span align="right">
+                </span>
+                <p>
+                <strong>{name}</strong>
+                </p>
+            <img src={imageSrc} style={{width: '140px', height: '180px'}}/>
+            <p>
+            Real Name: {realn} </p>
+            Role: {role}
+            </DemoPaper>
+        </BasicModal>
     );
   }

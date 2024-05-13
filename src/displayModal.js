@@ -1,9 +1,7 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
-import data from './characters.json'
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
-import AddIcon from '@mui/icons-material/Add';
 
 
 const style = {
@@ -13,19 +11,21 @@ const style = {
   transform: 'translate(-50%, -50%)',
   width: 400,
   bgcolor: 'background.paper',
-  border: '2px solid #000',
   boxShadow: 24,
   p: 4,
+  borderRadius: 8
 };
 
-export default function BasicModal({info, org}) {
+export default function BasicModal({children, info, org}) {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
 
   return (
-    <div>
-        <AddIcon onClick={handleOpen}></AddIcon>
+    <>
+        <div onClick={handleOpen}>
+            { children }
+        </div>
       <Modal
         open={open}
         onClose={handleClose}
@@ -44,6 +44,6 @@ export default function BasicModal({info, org}) {
           </Typography>
         </Box>
       </Modal>
-    </div>
+    </>
   );
 }
