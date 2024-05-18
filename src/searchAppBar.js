@@ -17,8 +17,6 @@ import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
-import InboxIcon from '@mui/icons-material/MoveToInbox';
-import MailIcon from '@mui/icons-material/Mail';
 import SportsKabaddiTwoToneIcon from '@mui/icons-material/SportsKabaddiTwoTone';
 import FmdGoodTwoToneIcon from '@mui/icons-material/FmdGoodTwoTone';
 
@@ -75,6 +73,15 @@ const redTheme = createTheme({
 }
 );
 
+
+const dest = [
+  '',
+  '',
+  '',
+  'https://www.linkedin.com/in/hirav-abhay-singh-thakur-8bb3b3253'
+];
+
+
 export default function SearchAppBar({ onSearch }) {
 
   const [open, setOpen] = React.useState(false);
@@ -83,12 +90,14 @@ export default function SearchAppBar({ onSearch }) {
     setOpen(newOpen);
   };
 
+  
+
   const DrawerList = (
     <Box sx={{ width: 250 }} role="presentation" onClick={toggleDrawer(false)}>
       <List>
-        {['Agents', 'Weapons (W.I.P)', 'Maps (W.I.P)', 'Developer Information (W.I.P)'].map((text, index) => (
+        {['Agents (W.I.P)', 'Weapons (W.I.P)', 'Maps (W.I.P)', 'Developer Information'].map((text, index) => (
           <ListItem key={text} disablePadding>
-            <ListItemButton>
+            <ListItemButton onClick={() => window.open(dest[index], '_blank')}>
               <ListItemIcon>
                 {index % 2 === 0 ? <SportsKabaddiTwoToneIcon /> : <FmdGoodTwoToneIcon/>}
               </ListItemIcon>
@@ -98,7 +107,15 @@ export default function SearchAppBar({ onSearch }) {
         ))}
       </List>
       <Divider />
-      Work In Progress (W.I.P)
+      Created by Hirav Abhay Singh Thakur. 
+      <p>
+        <strong>
+      All components related to Valorant are owned by Riot Games.
+        </strong>
+      </p>
+      <p>
+        Work In Progress (W.I.P) means that the particular component may not work as intended as of yet.
+      </p>
     </Box>
   );
 
