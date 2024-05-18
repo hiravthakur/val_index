@@ -6,7 +6,7 @@
       "role": "Controller",
       "origin": "Baltimore, United States",
       "description": "Joining from the U.S.A., Brimstone's orbital arsenal ensures his squad always has the advantage. His ability to deliver utility precisely and from a distance make him an unmatched boots-on-the-ground commander.",
-      "imageSrc": "https://static.valorantstats.xyz/agent-headshots/brimstone-headshot.png"
+      "imageSrc": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt26fcf1b5752514ee/5eb7cdbfc1dc88298d5d3799/V_AGENTS_587x900_Brimstone.png"
     },
     {
         "id": 2,
@@ -24,7 +24,7 @@
         "role": "Controller",
         "origin": "Unknown",
         "description": "A phantom of a memory, Omen hunts in the shadows. He renders enemies blind, teleports across the field, then lets paranoia take hold as his foe scrambles to learn where he might strike next.",
-        "imageSrc": "https://img.redbull.com/images/c_crop,x_991,y_0,h_2160,w_1620/c_fill,w_450,h_600/q_auto:low,f_auto/redbullcom/2021/2/16/bm7cdtb6xdhcibbweehq/valorant-omen"
+        "imageSrc": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt4e5af408cc7a87b5/5eb7cdc17bedc8627eff8deb/V_AGENTS_587x900_Omen.png"
       },
       {
         "id": 4,
@@ -33,7 +33,7 @@
         "role": "Sentinel",
         "origin": "Germany",
         "description": "The genius of Germany, Killjoy effortlessly secures key battlefield positions with her arsenal of inventions. If their damage doesn't take her enemies out, the debuff her robots provide will make short work of them.",
-        "imageSrc": "https://img.redbull.com/images/c_crop,x_246,y_0,h_720,w_540/c_fill,w_450,h_600/q_auto:low,f_auto/redbullcom/2020/10/30/yrn6erzpnmlqnosjeaws/valorant-operator-killjoy"
+        "imageSrc": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt53405c26141beff8/5f21fda671ec397ef9bf0894/V_AGENTS_587x900_KillJoy_.png"
       },
       {
         "id": 5,
@@ -51,7 +51,7 @@
         "role": "Initiator",
         "origin": "Severomorsk, Russia",
         "description": "Born from the eternal winter of Russia's tundra, Sova tracks, finds, and eliminates enemies with ruthless efficiency and precision. His custom bow and incredible scouting abilities ensure that even if you run, you cannot hide.",
-        "imageSrc": "https://pbs.twimg.com/media/F4TOpznbkAEFv_X.jpg:large"
+        "imageSrc": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltf11234f4775729b7/5ebf2c275e73766852c8d5d4/V_AGENTS_587x900_ALL_Sova_2.png"
       },
       {
         "id": 7,
@@ -60,7 +60,7 @@
         "role": "Sentinel",
         "origin": "China",
         "description": "The bastion of China, Sage creates safety for herself and her team wherever she goes. Able to revive fallen friends and stave off aggressive pushes, she provides a calm center to a hellish fight.",
-        "imageSrc": "https://img.redbull.com/images/c_fill,g_auto,w_450,h_600/q_auto:low,f_auto/redbullcom/2021/2/17/v6fdyy9jxu7wzctlos7y/valorant-sage"
+        "imageSrc": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt8a627ec10b57f4f2/5eb7cdc16509f3370a5a93b7/V_AGENTS_587x900_sage.png"
       },
       {
         "id": 8,
@@ -78,7 +78,7 @@
         "role": "Duelist",
         "origin": "Seoul, South Korea",
         "description": "Representing her home country of South Korea, Jett's agile and evasive fighting style lets her take risks no one else can. She runs circles around every skirmish, cutting enemies before they even know what hit them.",
-        "imageSrc": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/36dee7f4-269b-4eda-9de2-6f0b4565e76c/de56mlp-4b1a3c46-39c3-4000-99d2-ff47c80643ad.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzM2ZGVlN2Y0LTI2OWItNGVkYS05ZGUyLTZmMGI0NTY1ZTc2Y1wvZGU1Nm1scC00YjFhM2M0Ni0zOWMzLTQwMDAtOTlkMi1mZjQ3YzgwNjQzYWQuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.zdXmc3bZg76OLHiY32tzMIrltd9ZHxYCHpoq57tMPl4"
+        "imageSrc": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltceaa6cf20d328bd5/5eb7cdc1b1f2e27c950d2aaa/V_AGENTS_587x900_Jett.png"
       },
       {
         "id": 10,
@@ -87,7 +87,7 @@
         "role": "Duelist",
         "origin": "Mexico",
         "description": "Forged in the heart of Mexico, Reyna dominates single combat, popping off with each kill she scores. Her capability is only limited by her raw skill, making her highly dependent on performance.",
-        "imageSrc": "https://i.pinimg.com/736x/f4/0d/e0/f40de0cd5bf4125496f8fb7da266c0af.jpg"
+        "imageSrc": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt6577b1f58530e6b2/5eb7cdc121a5027d77420208/V_AGENTS_587x900_Reyna.png"
       },
       {
         "id": 11,
@@ -114,7 +114,7 @@
         "role": "Initiator",
         "origin": "Nimbin, Australia",
         "description": "Hailing from Australia, Skye and her band of beasts trail-blaze the way through hostile territory. With her creations hampering the enemy, and her power to heal others, the team is strongest and safest by Skye's side.",
-        "imageSrc": "https://img.redbull.com/images/c_crop,x_515,y_0,h_1080,w_810/c_fill,w_450,h_600/q_auto:low,f_auto/redbullcom/2020/11/13/tfoa3mi8rg3edw70fuip/valorant-skye"
+        "imageSrc": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt302fcb2b9628c376/5f7fa6ff8db9ea0f149ece0a/V_AGENTS_587x900_ALL_Skye.png"
       },
       {
         "id": 14,
@@ -123,7 +123,7 @@
         "role": "Duelist",
         "origin": "Japan",
         "description": "Japanese native Yoru rips holes straight through reality to infiltrate enemy lines unseen. Using deception and aggression in equal measure, he gets the drop on each target before they know where to look.",
-        "imageSrc": "https://assetsio.gnwcdn.com/valorants-next-new-character-is-yoru-an-infiltrating-duelist-1610211709738.jpg?width=1200&height=1200&fit=crop&quality=100&format=png&enable=upscale&auto=webp"
+        "imageSrc": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltd4080f8efb365751/5ff5660bb47cdf7fc7d6c3dc/V_AGENTS_587x900_yoru.png"
       },
       {
         "id": 15,
@@ -132,7 +132,7 @@
         "role": "Controller",
         "origin": "Accra, Ghana",
         "description": "Ghanaian Agent Astra harnesses the energies of the cosmos to reshape battlefields to her whim. With full command of her astral form and a talent for deep strategic foresight, she’s always eons ahead of her enemy’s next move.",
-        "imageSrc": "https://w.forfun.com/fetch/01/019856d12b52b96dc2ed16a4ac40eaae.jpeg"
+        "imageSrc": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt5599d0d810824279/6036ca30ce4a0d12c3ec1dfa/V_AGENTS_587x900_Astra.png"
       },
       {
         "id": 16,
@@ -141,7 +141,7 @@
         "role": "Initiator",
         "origin": "Alternative Timeline Earth",
         "description": "KAY/O is a machine of war built for a single purpose: neutralizing radiants. His power to suppress enemy abilities dismantles his opponents' capacity to fight back, securing him and his allies the ultimate edge.",
-        "imageSrc": "https://valorantinfo.gg/wp-content/uploads/2021/09/agent-kayo.png"
+        "imageSrc": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blte5aefeb26bee12c8/60ca5aa30ece0255888d7faa/KAYO_KeyArt_587x900.png"
       },
       {
         "id": 17,
@@ -159,7 +159,7 @@
         "role": "Duelist",
         "origin": "Manila, Philippines",
         "description": "Filipino Agent, Neon, surges forward at shocking speeds, discharging bursts of bioelectric radiance as fast as her body generates it. She races ahead to catch enemies off guard, then strikes them down quicker than lightning.",
-        "imageSrc": "https://img.redbull.com/images/c_crop,x_264,y_0,h_546,w_409/c_fill,w_450,h_600/q_auto:low,f_auto/redbullcom/2022/10/31/yy1oarooqat7lunsjw5r/valorant-neon"
+        "imageSrc": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt8093ba7b5e84ed05/61d8a63ddea73a236fc56d12/Neon_KeyArt-Web.png"
       },
       {
         "id": 19,
@@ -168,7 +168,7 @@
         "role": "Initiator",
         "origin": "Istanbul, Turkey",
         "description": "Turkish bounty hunter Fade unleashes the power of raw nightmare to seize enemy secrets. Attuned with terror itself, she hunts down targets and reveals their deepest fears - before crushing them in the dark.",
-        "imageSrc": "https://img.redbull.com/images/c_crop,x_144,y_0,h_1000,w_750/c_fill,w_450,h_600/q_auto:low,f_auto/redbullcom/2022/12/21/ztwjghliscqjl4m3nfrc/fade-valorant"
+        "imageSrc": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt516d37c6c84fcda0/625db737c9aa404b76ddd594/Fade_Key_Art_587x900_for_Website.png"
       },
       {
         "id": 20,
@@ -195,7 +195,7 @@
         "role": "Sentinel",
         "origin": "Norway",
         "description": "Norwegian operative Deadlock deploys an array of cutting-edge nanowire to secure the battlefield from even the most lethal assault. No one escapes her vigilant watch, nor survives her unyielding ferocity",
-        "imageSrc": "https://img.redbull.com/images/c_crop,x_448,y_0,h_2160,w_1620/c_fill,w_450,h_600/q_auto:low,f_auto/redbullcom/2023/11/15/npjnlpq0guabgadtqkbq/deadlock-valorant"
+        "imageSrc": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt59125f966df76a27/649492a5a02402d20ee6900e/Deadlock-KeyArt.png"
       },
       {
         "id": 23,
