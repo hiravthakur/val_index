@@ -21,7 +21,7 @@ export default function CharDeployed({name, role, realn, imageSrc, desc, home}) 
                 <p>
                 <strong>{name}</strong>
                 </p>
-            <img src={imageSrc} style={{width: '140px', height: '200px'}}/>
+            <img src={imageSrc} alt='' style={{width: '140px', height: '200px'}}/>
             <p>
             Real Name: {realn} </p>
             Role: {role}
