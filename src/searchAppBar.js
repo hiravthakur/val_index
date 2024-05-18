@@ -84,7 +84,7 @@ export default function SearchAppBar({ onSearch }) {
   const DrawerList = (
     <Box sx={{ width: 250 }} role="presentation" onClick={toggleDrawer(false)}>
       <List>
-        {['Agents', 'Weapons (W.I.S)', 'Maps (W.I.S)', 'Developer Information (W.I.S)'].map((text, index) => (
+        {['Agents', 'Weapons (W.I.P)', 'Maps (W.I.P)', 'Developer Information (W.I.P)'].map((text, index) => (
           <ListItem key={text} disablePadding>
             <ListItemButton>
               <ListItemIcon>
@@ -96,6 +96,7 @@ export default function SearchAppBar({ onSearch }) {
         ))}
       </List>
       <Divider />
+      Work In Progress (W.I.P)
     </Box>
   );
 
