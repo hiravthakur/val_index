@@ -64,12 +64,12 @@ const redTheme = createTheme({
 }
 );
 
-export default function SearchAppBar() {
+export default function SearchAppBar({ onSearch }) {
 
   const handleSearch = (event) => {
     if (event.key === 'Enter') {
-    const query = event.target.value;
-    console.log('Searching for:', query);
+    const query = event.target.value.trim();
+    onSearch(query);
     }
   };
 
