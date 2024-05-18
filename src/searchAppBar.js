@@ -19,6 +19,8 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import InboxIcon from '@mui/icons-material/MoveToInbox';
 import MailIcon from '@mui/icons-material/Mail';
+import SportsKabaddiTwoToneIcon from '@mui/icons-material/SportsKabaddiTwoTone';
+import FmdGoodTwoToneIcon from '@mui/icons-material/FmdGoodTwoTone';
 
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
@@ -88,7 +90,7 @@ export default function SearchAppBar({ onSearch }) {
           <ListItem key={text} disablePadding>
             <ListItemButton>
               <ListItemIcon>
-                {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
+                {index % 2 === 0 ? <SportsKabaddiTwoToneIcon /> : <FmdGoodTwoToneIcon/>}
               </ListItemIcon>
               <ListItemText primary={text} />
             </ListItemButton>
