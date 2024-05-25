@@ -12,7 +12,7 @@ const DemoPaper = styled(Paper)(({ theme }) => ({
   borderRadius: 20,
 }));
 
-export default function MapDeployed({name, location, deatchmatch, laysrc}) {
+export default function MapDeployed({name, location, deatchmatch, layout}) {
     return (
         <BasicModal>
             <DemoPaper square={false}>
@@ -21,7 +21,7 @@ export default function MapDeployed({name, location, deatchmatch, laysrc}) {
                 <p>
                 <strong>{name}</strong>
                 </p>
-            <img src={laysrc} alt='' style={{width: '140px', height: '200px'}}/>
+            <img src={layout} alt='' style={{width: '140px', height: '200px'}}/>
             <p>
             Location: {location} </p>
             Deathmatch placeholder

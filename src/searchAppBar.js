@@ -74,15 +74,7 @@ const redTheme = createTheme({
 );
 
 
-const dest = [
-  '',
-  '',
-  '',
-  'https://www.linkedin.com/in/hirav-abhay-singh-thakur-8bb3b3253'
-];
-
-
-export default function SearchAppBar({ onSearch }) {
+export default function SearchAppBar({ onSearch, set }) {
 
   const [open, setOpen] = React.useState(false);
 
@@ -95,9 +87,9 @@ export default function SearchAppBar({ onSearch }) {
   const DrawerList = (
     <Box sx={{ width: 250 }} role="presentation" onClick={toggleDrawer(false)}>
       <List>
-        {['Agents (W.I.P)', 'Weapons (W.I.P)', 'Maps (W.I.P)', 'Developer Information'].map((text, index) => (
+        {['Characters', 'Weapons (W.I.P)', 'Maps', 'Developer Information'].map((text, index) => (
           <ListItem key={text} disablePadding>
-            <ListItemButton onClick={() => window.open(dest[index], '_blank')}>
+            <ListItemButton onClick={() => set(text.toLowerCase())}>
               <ListItemIcon>
                 {index % 2 === 0 ? <SportsKabaddiTwoToneIcon /> : <FmdGoodTwoToneIcon/>}
               </ListItemIcon>
