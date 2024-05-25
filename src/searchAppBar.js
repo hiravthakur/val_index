@@ -146,7 +146,7 @@ export default function SearchAppBar({ onSearch, set }) {
             <SearchIcon />
             </SearchIconWrapper>
             <StyledInputBase
-            placeholder="Look up an agent..."
+            placeholder="Looking for something?"
             inputProps={{ 'aria-label': 'search' }}
             onKeyDown={handleSearch}
             />
