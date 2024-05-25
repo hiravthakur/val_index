@@ -13,11 +13,21 @@ function App() {
 
   const [filteredCharactersArray, setfilteredCharactersArray] = useState(characters);
 
+  const [filteredMapsArray, setfilteredMapsArray] = useState(maps);
+
   const handleSearch = (query) => {
+    if (view === 'characters') {
     const filtered = characters.filter(character =>
       character.name.toLowerCase().includes(query.toLowerCase())
     );
     setfilteredCharactersArray(filtered);
+    }
+    else if (view === 'maps') {
+      const filteredMaps = maps.filter(maps =>
+        maps.name.toLowerCase().includes(query.toLowerCase())
+      );
+      setfilteredMapsArray(filteredMaps);
+      }
   };
 
   return (
@@ -49,7 +59,7 @@ function App() {
       
       {view === 'maps' && (
         <div className="containsGrid">
-          {maps.map((item) => (
+          {filteredMapsArray.map((item) => (
             <div className="itemName">
               <MapDeployed
                 name={item.name}
