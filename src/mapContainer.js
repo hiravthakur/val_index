@@ -1,7 +1,6 @@
 import * as React from 'react';
 import Paper from '@mui/material/Paper';
 import { styled } from '@mui/material/styles';
-import BasicModal from './displayModal';
 //Creates a container for the characters from MUI
 const DemoPaper = styled(Paper)(({ theme }) => ({
   width: 170,
@@ -14,7 +13,6 @@ const DemoPaper = styled(Paper)(({ theme }) => ({
 
 export default function MapDeployed({name, location, deatchmatch, layout}) {
     return (
-        <BasicModal>
             <DemoPaper square={false}>
                 <span align="right">
                 </span>
@@ -26,6 +24,5 @@ export default function MapDeployed({name, location, deatchmatch, layout}) {
             Location: {location} </p>
             Deathmatch placeholder
             </DemoPaper>
-        </BasicModal>
     );
   }
