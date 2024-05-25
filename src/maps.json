@@ -1,0 +1,100 @@
+[
+    {
+        "id": 1,
+        "name": "Bind",
+        "location": "Rabat, Morocco, Alpha Earth",
+        "tdm": false,
+        "layout-src": "https://assets.rockpapershotgun.com/images/2020/04/Valorant-Bind-map.png"
+    },
+    {
+        "id": 2,
+        "name": "Haven",
+        "location": "Thimphu, Bhutan, Alpha Earth",
+        "tdm": false,
+        "layout-src": "https://assets.rockpapershotgun.com/images/2020/04/Valorant-Haven-map.png"
+    },
+    {
+        "id": 3,
+        "name": "Split",
+        "location": "Tokyo, Japan, Alpha Earth",
+        "tdm": false,
+        "layout-src": "https://assets.rockpapershotgun.com/images/2020/04/Valorant-Split-map-v2.png"
+    },
+    {
+        "id": 4,
+        "name": "Ascent",
+        "location": "Venice, Italy, Alpha Earth",
+        "tdm": false,
+        "layout-src": "https://assets-global.website-files.com/6333044d6a20187c86556db5/64229d3d6713b3c7b8761025_ascent_map_callouts.png"
+    },
+    {
+        "id": 5,
+        "name": "Icebox",
+        "location": "Bennett Island, Russia, Alpha Earth",
+        "tdm": false,
+        "layout-src": "https://assets-global.website-files.com/6333044d6a20187c86556db5/6422bcb662beb0f3d1fc5636_icebox_map_callouts.png"
+    },
+    {
+        "id": 6,
+        "name": "Breeze",
+        "location": "Bermuda Triangle, Atlantic Ocean, Alpha Earth",
+        "tdm": false,
+        "layout-src": "https://cdnportal.mobalytics.gg/production/2022/05/6f0b98b7-breeze-maps.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Fracture",
+        "location": "Santa Fe County, New Mexico, United States, Alpha Earth",
+        "tdm": false,
+        "layout-src": "https://cdn.thespike.gg/Onur%2Ffracture%20map%20layout_1687365990428.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Pearl",
+        "location": "Lisbon, Portugal, Omega Earth",
+        "tdm": false,
+        "layout-src": "https://cdnportal.mobalytics.gg/production/2022/06/570aa849-pearl-first-impressions-and-how-to-play-7.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Lotus",
+        "location": "Western Ghats, India, Omega Earth",
+        "tdm": false,
+        "layout-src": "https://assets-global.website-files.com/6333044d6a20187c86556db5/6422b7596a544a1c083c4f46_lotus_map_callouts.png"
+    },
+{
+    "id": 10,
+    "name": "Sunset",
+    "location": "Los Angeles, California, United States, Alpha Earth",
+    "tdm": false,
+    "layout-src": "https://cdnportal.mobalytics.gg/production/2023/08/c91bc275-sunset-map.png"
+},
+{
+    "id": 11,
+    "name": "District",
+    "location": "Based off Split",
+    "tdm": true,
+    "layout-src": "https://www.zleague.gg/theportal/wp-content/uploads/2023/07/District-minimap-1024x576.png"
+},
+{
+    "id": 12,
+    "name": "Kasbah",
+    "location": "Based off Bind",
+    "tdm": true,
+    "layout-src": "https://www.mandatory.gg/wp-content/uploads/mandatory-news-valorant-mme-tdm-map-kasbah-outline-1024x769.png"
+},
+{
+    "id": 13,
+    "name": "Piazza",
+    "location": "Based off Ascent",
+    "tdm": true,
+    "layout-src": "https://www.mandatory.gg/wp-content/uploads/mandatory-news-valorant-mme-tdm-map-piazza-outline-1024x467.png"
+},
+{
+    "id": 14,
+    "name": "Drift",
+    "location": "Thailand",
+    "tdm": true,
+    "layout-src": "https://liquipedia.net/commons/images/thumb/8/81/VALORANT_Drift_2023_Top.png/675px-VALORANT_Drift_2023_Top.png"
+}
+]
