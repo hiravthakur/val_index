@@ -12,6 +12,16 @@ const DemoPaper = styled(Paper)(({ theme }) => ({
 }));
 
 export default function MapDeployed({name, location, deatchmatch, layout}) {
+
+  const checkForTDM = (tdm) => {
+    if(tdm){
+      return "This is a Team Deatchmatch Map."
+    }
+    else {
+      return "This is a Standard Map."
+    }
+  };
+
     return (
             <DemoPaper square={false}>
                 <span align="right">
@@ -22,7 +32,7 @@ export default function MapDeployed({name, location, deatchmatch, layout}) {
             <img src={layout} alt='' style={{width: '140px', height: '200px'}}/>
             <p>
             Location: {location} </p>
-            Deathmatch placeholder
+            {checkForTDM(deatchmatch)}
             </DemoPaper>
     );
   }
