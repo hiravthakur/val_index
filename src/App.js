@@ -82,7 +82,7 @@ function App() {
       externalLink("https://www.linkedin.com/in/hirav-abhay-singh-thakur-8bb3b3253")
 
       )}
-  {view === 'weapons (w.i.p)' && (
+  {view === 'weapons' && (
 
     <SearchAlerts desc="Sorry, we're still working on this."></SearchAlerts>
 

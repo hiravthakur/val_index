@@ -87,7 +87,7 @@ export default function SearchAppBar({ onSearch, set }) {
   const DrawerList = (
     <Box sx={{ width: 250 }} role="presentation" onClick={toggleDrawer(false)}>
       <List>
-        {['Characters', 'Weapons (W.I.P)', 'Maps', 'Developer Information'].map((text, index) => (
+        {['Characters', 'Weapons', 'Maps', 'Developer Information'].map((text, index) => (
           <ListItem key={text} disablePadding>
             <ListItemButton onClick={() => set(text.toLowerCase())}>
               <ListItemIcon>
@@ -106,7 +106,7 @@ export default function SearchAppBar({ onSearch, set }) {
         </strong>
       </p>
       <p>
-        Work In Progress (W.I.P) means that the particular component may not work as intended as of yet.
+        Features are still under development and subject to change.
       </p>
     </Box>
   );
