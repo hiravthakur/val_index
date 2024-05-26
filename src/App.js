@@ -7,6 +7,7 @@ import { useState } from 'react';
 import SearchAlerts from './alerts';
 import MapDeployed from './mapContainer';
 import maps from './maps.json';
+import CircularIndeterminate from './circularUpdates';
 function App() {
 
   const [view, setView] = useState('characters');
@@ -83,9 +84,11 @@ function App() {
 
       )}
   {view === 'weapons' && (
-
-    <SearchAlerts desc="Sorry, we're still working on this."></SearchAlerts>
-
+    <><SearchAlerts desc="Sorry, we're still working on this."></SearchAlerts>
+    <div className='centered'>
+    <CircularIndeterminate></CircularIndeterminate>
+    </div>
+    </>
   )}
 
     </>
