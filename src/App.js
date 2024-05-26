@@ -30,6 +30,11 @@ function App() {
       }
   };
 
+  const externalLink = (url) => {
+    window.open(url, 'my Linkedin')
+    setView('characters')
+  };
+
   return (
     <>
       <SearchAppBar onSearch={handleSearch} set={setView} />
@@ -71,6 +76,13 @@ function App() {
           ))}
         </div>
       )}
+
+{view === 'developer information' && (
+
+      externalLink("https://www.linkedin.com/in/hirav-abhay-singh-thakur-8bb3b3253")
+
+      )}
+
     </>
   );
 }
