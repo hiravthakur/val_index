@@ -42,7 +42,7 @@ function App() {
       {view === 'characters' && (
         <>
           {filteredCharactersArray.length === 0 ? (
-            <SearchAlerts />
+            <SearchAlerts desc="Can't find what you're looking for :("/>
           ) : (
             <div className="containsGrid">
               {filteredCharactersArray.map((item) => (
@@ -82,6 +82,11 @@ function App() {
       externalLink("https://www.linkedin.com/in/hirav-abhay-singh-thakur-8bb3b3253")
 
       )}
+  {view === 'weapons (w.i.p)' && (
+
+    <SearchAlerts desc="Sorry, we're still working on this."></SearchAlerts>
+
+  )}
 
     </>
   );
